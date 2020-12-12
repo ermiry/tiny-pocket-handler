@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#include "version.h"
+
 int main (int argc, const char **argv) {
 
-	(void) printf ("Tiny Pocket Handler!\n\n");
+	pocket_handler_version_print_full ();
 
 	return 0;
 
